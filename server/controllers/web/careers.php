@@ -17,7 +17,7 @@ class careers extends ServerController
     {
         $curl = curl_init();
         curl_setopt_array($curl, [
-            CURLOPT_URL => 'https://tml.lifevantagenigeria.com/api/departments',
+            CURLOPT_URL => 'https://tslapi.ufainiibom.com/api/departments',
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_CUSTOMREQUEST => 'GET',
             CURLOPT_HTTPHEADER => [
@@ -36,7 +36,7 @@ class careers extends ServerController
         $decodedResponse = json_decode($response, true);
         
         $data['dept'] = $decodedResponse['data'] ?? [];
-        $data['menu_active'] = 'careers';
+        $data['menu_active'] = 'depts';         
         $data['page_title'] = 'Discover Your Ideal Career';
         $this->loadView('careers/discover_careers', @$data);
     }
@@ -46,7 +46,7 @@ class careers extends ServerController
     {
             $curl = curl_init();
             curl_setopt_array($curl, [
-                CURLOPT_URL => 'https://tml.lifevantagenigeria.com/api/departments/'.$id,
+                CURLOPT_URL => 'https://tslapi.ufainiibom.com/api/departments/'.$id,
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_CUSTOMREQUEST => 'GET',
                 CURLOPT_HTTPHEADER => [
@@ -74,9 +74,10 @@ class careers extends ServerController
 
     public function starting_career()
     {
-        $data['page_title'] = 'Starting Your Career';
+        $data['page_title'] = 'Starting Careers';
         $data['type'] = 'service';
-        $data['menu_active'] = 'careers';
+        $data['service'] = 'Starting Careers';
+        $data['menu_active'] = 'starting_career';
         $this->loadView('careers/starting_career',  @$data);
     }
 
@@ -84,7 +85,8 @@ class careers extends ServerController
     {
         $data['page_title'] = 'Experience Hires';
         $data['type'] = 'service';
-        $data['menu_active'] = 'careers';
+        $data['service'] = 'Experience Hires';
+        $data['menu_active'] = 'experienced_hires';
         $this->loadView('careers/experienced_hires',  @$data);
     }
 
@@ -92,9 +94,10 @@ class careers extends ServerController
 
     public function departmental_positions()
     {
-        $data['page_title'] = 'Departmental Positions';
+        $data['page_title'] = 'DepartmentalPositions';
         $data['type'] = 'service';
-        $data['menu_active'] = 'careers';
+        $data['service'] = 'Experience Hires';
+        $data['menu_active'] = 'experienced_hires';
         $this->loadView('careers/DepartmentalPositions',  @$data);
     }
 
@@ -102,7 +105,8 @@ class careers extends ServerController
     {
         $data['page_title'] = 'Job Details';
         $data['type'] = 'service';
-        $data['menu_active'] = 'careers';
+        $data['service'] = 'Job Details';
+        $data['menu_active'] = 'job_details';
         $this->loadView('careers/job_details',  @$data);
     }
 
@@ -110,8 +114,8 @@ class careers extends ServerController
     {
         $data['page_title'] = 'Available Positions';
         $data['type'] = 'service';
-        $data['menu_active'] = 'careers';
+        $data['service'] = 'Available Positions';
+        $data['menu_active'] = 'available_positions';
         $this->loadView('careers/available_positions',  @$data);
     }
-
 }

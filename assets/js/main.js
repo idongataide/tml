@@ -2380,6 +2380,7 @@
     var expires = exdays != 0 && exdays != "" ? d.toUTCString() : 0;
     document.cookie = cname + "=" + cvalue + ";expires=" + expires + ";path=/";
   }
+  
   function setupSwiper() {
     var swipers = document.querySelectorAll(
       "[data-slider-options]:not(.instafeed-wrapper)"
@@ -2698,11 +2699,29 @@
           };
         }
         if (typeof Swiper === "function") {
-          _this.imagesLoaded(function () {
-            var swiperObj = new Swiper(swiperItem, sliderOptions);
-            swiperObjs.push(swiperObj);
-          });
+          const waitForSlides = setInterval(() => {
+            const slides = swiperItem.querySelectorAll(".swiper-slide");
+            if (slides.length > 1) {
+              clearInterval(waitForSlides);
+        
+              if (sliderOptions.loop && slides.length <= (sliderOptions.slidesPerView || 1)) {
+                sliderOptions.loop = false;
+              }
+        
+              var swiperObj = new Swiper(swiperItem, sliderOptions);
+              swiperObjs.push(swiperObj);
+        
+              // 🖱️ Pause on hover
+              swiperItem.addEventListener("mouseenter", function () {
+                if (swiperObj.autoplay) swiperObj.autoplay.stop();
+              });
+              swiperItem.addEventListener("mouseleave", function () {
+                if (swiperObj.autoplay) swiperObj.autoplay.start();
+              });
+            }
+          }, 200);
         }
+        
       }
     });
   }

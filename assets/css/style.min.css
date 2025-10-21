@@ -19541,3 +19541,7 @@ background-image: linear-gradient(to right, #009090, #008080, #44a181, #008080, 
   max-height: 250px;
   overflow: hidden;
 }
+
+.bottom30{
+  bottom: 30%;
+}

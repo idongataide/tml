@@ -71,7 +71,7 @@
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
                                         <li><a href="<?php echo base_url(); ?>/services/urban_mass" class="<?php echo $menu_active === 'urban_mass' ? 'active' : ''; ?>">Urban Mass Transit</a></li>
                                         <li><a href="<?php echo base_url(); ?>/services/intercity_services" class="<?php echo $menu_active === 'intercity_services' ? 'active' : ''; ?>">Intercity Services</a></li>                                       
-                                        <li><a href="<?php echo base_url(); ?>/services/regional_bus" class="<?php echo $menu_active === 'regional_bus' ? 'active' : ''; ?>">Regional Bus Services</a></li>                                       
+                                        <li><a href="<?php echo base_url(); ?>/services/regional_bus" class="<?php echo $menu_active === 'regional_bus' ? 'active' : ''; ?>">Regional Coach Services</a></li>                                       
                                         <li><a href="<?php echo base_url(); ?>/services/bus_charter" class="<?php echo $menu_active === 'bus_charter' ? 'active' : ''; ?>">Bus Charter</a></li>                                       
                                     </ul>
                                 </li>

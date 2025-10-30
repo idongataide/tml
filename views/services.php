@@ -97,15 +97,15 @@
                                         <!-- start services box style --> 
                                         <div class="services-box-style-03 last-paragraph-no-margin border-radius-6px overflow-hidden">
                                             <div class="position-relative">
-                                                <a href="<?php echo base_url(); ?>/services/regional_serives"><img src="<?php echo base_url(); ?>/assets/img/service/regional.jpg" alt=""></a>
+                                                <a href="<?php echo base_url(); ?>/services/regional_bus"><img src="<?php echo base_url(); ?>/assets/img/service/regional.jpg" alt=""></a>
                                             </div>
                                             <div class="bg-white">
                                                 <div class="ps-40px pe-40px pt-30px pb-30px text-center">
-                                                    <a href="<?php echo base_url(); ?>/services/regional_serives" class="d-inline-block fs-18 fw-700 text-dark-gray mb-5px">Regional Bus Services</a>
+                                                    <a href="<?php echo base_url(); ?>/services/regional_bus" class="d-inline-block fs-18 fw-700 text-dark-gray mb-5px">Regional Coach Services</a>
                                                     <p>Our regional services make it simple for you to travel to nearby areas.</p> 
                                                 </div> 
                                                 <div class="d-flex justify-content-center border-top border-color-extra-medium-gray pt-20px pb-20px ps-50px pe-50px position-relative text-center">
-                                                    <a href="regional_serives" class="btn btn-link shadow-0 btn-hover-animation-switch btn-medium fw-700 text-dark-gray text-uppercase">
+                                                    <a href="regional_bus" class="btn btn-link shadow-0 btn-hover-animation-switch btn-medium fw-700 text-dark-gray text-uppercase">
                                                         <span>
                                                             <span class="btn-text">Explore services</span>
                                                             <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>

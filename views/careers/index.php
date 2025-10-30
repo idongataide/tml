@@ -114,7 +114,7 @@
                         </div>
                         <div class="col-lg-6 ps-12 pe-14 xxl-ps-10 xxl-pe-10 xl-pe-8 lg-ps-6 lg-pe-4 md-p-50px sm-ps-30px sm-pe-30px position-relative align-self-center text-md-start text-center"> 
                             <h2 class="text-dark-gray alt-font fw-600 ls-minus-4px mb-25px">Our team of over 1000 employees are driven by a common purpose:</h2>
-                            <p class="w-95 md-w-100 mb-35px">To reshape the transport and logistics industry in Sub Saharan Africa, with talented, passionate employees who are determined to take on the challenge. So whether you are just starting out in your career or looking to take that next step, our organisation creates the platform where you can go as far and as fast as your ambition and ability can take you.</p>
+                            <p class="w-95 md-w-100 mb-35px">To redefine urban mobility in Sub-Saharan Africa through a team of talented and passionate individuals committed to driving change. Whether you’re just beginning your career or ready to take the next leap, TSL Metroline Ltd. offers a dynamic platform where your ambition, skill, and purpose can move you forward — as far and as fast as you’re willing to go.</p>
                             <a href="<?php echo base_url(); ?>/careers/available_positions" class="btn btn-extra-large btn-primary fw-400">Search Positions</a>
                         </div>
                     </div>
@@ -137,7 +137,7 @@
                         </div>
                         <div class="col-lg-6 ps-12 pe-14 xxl-ps-10 xxl-pe-10 xl-pe-8 lg-ps-6 lg-pe-4 md-p-50px sm-ps-30px sm-pe-30px position-relative align-self-center text-md-start text-center"> 
                             <h2 class="text-dark-gray alt-font fw-600 ls-minus-4px mb-25px">Diversity and Inclusiveness</h2>
-                            <p class="w-95 md-w-100 mb-35px">Our commitment to gender diversity is evident, as the proportion of women in our workforce has grown from 38% to 41% year-on-year. Women now represent 50% of our Management team, underscoring our dedication to cultivating an environment where excellence thrives above all else.</p></p>
+                            <p class="w-95 md-w-100 mb-35px">Our commitment to gender diversity is evident in the growing representation of women across our workforce. Women now play key roles in leadership and decision-making, reflecting our dedication to fostering an inclusive environment where excellence and opportunity thrive.</p>
                             <a href="<?php echo base_url(); ?>/careers/available_positions" class="btn btn-extra-large btn-primary fw-400">Search Positions</a>
                         </div>
                     </div>
@@ -146,6 +146,41 @@
         </div>
     </div>
 </section>
+  
+
+<section class="p-0 mb-10 mt-10">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-6 col-lg-7" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <div class="position-sticky top-100px"  data-anime='{ "el": "childs", "translateX": [100, 0], "opacity": [0,1], "duration": 600, "delay": 100, "staggervalue": 200, "easing": "easeOutQuad" }'>
+                           
+                            <figure class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
+                                <a href="#">
+                                    <img src="<?php echo base_url(); ?>/assets/img/about/empower.jpg" alt="">
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-xxl-5 col-lg-5 offset-xxl-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <span class="fs-40 xl-fs-40 lg-fs-40 fw-600 mb-25px d-inline-block text-black mt-4">Empowering our team with expertise and efficiency.</span>
+
+                        <div class="mb-20px sm-mb-30px last-paragraph-no-margin"> 
+                            <span class="d-inline-block fs-15 text-uppercase fw-700 text-black mb-5px">Driving Positive Change</span>
+                            <p>At TSL Metroline, our forward-thinking leadership drives innovation, agility, and excellence to shape the future of transportation and deliver lasting value.</p>
+                        </div>
+                        <div class="mb-20px sm-mb-30px last-paragraph-no-margin"> 
+                            <span class="d-inline-block fs-15 text-uppercase fw-700 text-black mb-5px">Agility & Innovation</span>
+                            <p>We embrace agility to adapt quickly, make informed decisions, and deliver high-quality solutions in a fast-changing world.</p>
+                        </div> 
+                        <div class="last-paragraph-no-margin"> 
+                            <span class="d-inline-block fs-15 text-uppercase fw-700 text-black mb-5px">Empowering Creativity</span>
+                            <p>Through continuous training and development, we foster a culture of learning and creativity that keeps our team ahead of the curve.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 <?php include 'faqs.php'; ?>
 
    

@@ -163,41 +163,7 @@
 
      <?php include 'layouts/core-values.php'?> 
 
-           
-
-        <section class="p-0 mb-10 mt-10">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xxl-6 col-lg-7" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <div class="position-sticky top-100px"  data-anime='{ "el": "childs", "translateX": [100, 0], "opacity": [0,1], "duration": 600, "delay": 100, "staggervalue": 200, "easing": "easeOutQuad" }'>
-                           
-                            <figure class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
-                                <a href="#">
-                                    <img src="<?php echo base_url(); ?>/assets/img/about/empower.jpg" alt="">
-                                </a>
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-xxl-5 col-lg-5 offset-xxl-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <span class="fs-40 xl-fs-40 lg-fs-40 fw-600 mb-25px d-inline-block text-black mt-4">Empowering our team with expertise and efficiency.</span>
-
-                        <div class="mb-20px sm-mb-30px last-paragraph-no-margin"> 
-                            <span class="d-inline-block fs-15 text-uppercase fw-700 text-black mb-5px">Driving Positive Change</span>
-                            <p>At TSL Metroline, our forward-thinking leadership drives innovation, agility, and excellence to shape the future of transportation and deliver lasting value.</p>
-                        </div>
-                        <div class="mb-20px sm-mb-30px last-paragraph-no-margin"> 
-                            <span class="d-inline-block fs-15 text-uppercase fw-700 text-black mb-5px">Agility & Innovation</span>
-                            <p>We embrace agility to adapt quickly, make informed decisions, and deliver high-quality solutions in a fast-changing world.</p>
-                        </div> 
-                        <div class="last-paragraph-no-margin"> 
-                            <span class="d-inline-block fs-15 text-uppercase fw-700 text-black mb-5px">Empowering Creativity</span>
-                            <p>Through continuous training and development, we foster a culture of learning and creativity that keeps our team ahead of the curve.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+         
         <section class="big-section bg-very-light-gray pb-40px threeD-letter-menu d-flex align-items-center ps-3 pe-3 sm-pt-15 xs-pt-15">
             <div class="container"  data-anime='{ "el": "childs", "translateX": [100, 0], "opacity": [0,1], "duration": 600, "delay": 100, "staggervalue": 200, "easing": "easeOutQuad" }'>
                 <div class="row">

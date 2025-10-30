@@ -149,7 +149,7 @@
                                 </div>
                                 <div class="col-lg-6 ps-12 pe-14 xxl-ps-10 xxl-pe-10 xl-pe-8 lg-ps-6 lg-pe-4 md-p-50px sm-ps-30px sm-pe-30px position-relative align-self-center text-md-start text-center"> 
                                     <h1 class="text-dark-gray alt-font   mb-25px">Empowering Local Economies</h1>
-                                    <p class="w-95 md-w-100 mb-35px">TSL Metroline increases employment opportunities and economic empowerment by improving the efficiency of distribution and personal mobility. It facilitates the transfer of knowledge and vital skills to sustain the mass transit system, boosting the overall economy of the state.</p>
+                                    <p class="w-95 md-w-100 mb-35px">We increase employment opportunities and economic empowerment by improving the efficiency of distribution and personal mobility. We facilitate the transfer of knowledge and vital skills to sustain the mass transit system, boosting our local economy.</p>
                                 </div>
                             </div>
                         </div>
@@ -172,7 +172,7 @@
                                 </div>
                                 <div class="col-lg-6 ps-12 pe-14 xxl-ps-10 xxl-pe-10 xl-pe-8 lg-ps-6 lg-pe-4 md-p-50px sm-ps-30px sm-pe-30px sm-pb-0 position-relative align-self-center text-md-start text-center"> 
                                     <h1 class="text-dark-gray alt-font   mb-25px">Promoting a <span style="color:#008080">Greener </span>Future</h1>
-                                    <p class="w-95 md-w-100 mb-35px">TSL Metroline ensures a serene and orderly environment by reducing road pressure and improving mobility. The service reduces accidents and fatalities through professionally trained bus drivers and contributes to the reduction of greenhouse gases, improving air quality.</p>
+                                    <p class="w-95 md-w-100 mb-35px">We ensure a serene and orderly environment by reducing road pressure and improving mobility. Our services promotes safety through professionally trained bus drivers and contributes to the reduction of greenhouse gases, improving air quality.</p>
                                 </div>
                             </div>
                         </div>

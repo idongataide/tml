@@ -21,11 +21,11 @@
                 <div class="col-lg-12 col-12 md-mb-35px last-paragraph-no-margin" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                     <div class="mb-10px">
                         <span class="w-30px h-2px fs-15 d-inline-block bg-base-color me-5px align-middle"></span>
-                        <span class="text-uppercase text-base-color fs-16 fw-600 d-inline-block">TSL Metroline</span>
+                        <span class="text-uppercase text-base-color fs-16 fw-600 d-inline-block">TSL Metroline Limited</span>
                     </div>
                     <h4 class="text-dark-gray fw-600 ls-minus-2px">Our commitment goes beyond operations</h4>
                     <p class="lg-w-100">At TML, we are shaping a future where every journey is seamless, enjoyable, and environmentally conscious. Our commitment to sustainability drives us to lead in three key areas for bus passenger transport: reducing emissions, optimizing fuel efficiency, and adopting low-impact, eco-friendly technologies. By integrating clean energy solutions and advanced systems, we work to minimize our carbon footprint without compromising on comfort or reliability.</p>
-                    <p class="lg-w-100">We have recently added a Scania NGV CNG gas bus to our Lagos operations. This reflects our ongoing commitment to investing in cleaner energy solutions and underscores our dedication to environmentally sustainable operations</p>
+                    <p class="lg-w-100">We are working on adding CNG buses to our operations. This reflects our ongoing commitment to investing in cleaner energy solutions and underscores our dedication to environmentally sustainable operations</p>
                     <p class="lg-w-100">Aligned with our core operations, we implement sustainability-focused practices such as optimizing route planning to reduce fuel consumption, maintaining high-efficiency vehicle performance standards, and prioritizing the use of recyclable materials in our buses. These measures ensure we deliver greener travel solutions while enhancing the overall passenger experience.</p>
                     <p class="lg-w-100">Social responsibility remains at the heart of our mission, ensuring passenger safety, accessibility, and inclusivity while supporting the communities we serve. Our approach extends to all stakeholders—passengers, employees, shareholders, and local communities—creating lasting value through responsible transportation and meaningful engagement. </p>
                     <p class="lg-w-100">At TML, sustainability isn’t just a goal; it’s a guiding principle that shapes every journey we take. We’re not just moving people; we’re building a more sustainable and socially responsible future for everyone involved.</p>
@@ -48,7 +48,7 @@
                                 <div class="position-absolute right-0px bottom-minus-1px">
                                     <div class="vertical-title-center">
                                         <div class="title fw-700 fs-15 alt-font text-uppercase text-dark-gray bg-white pt-30px pb-30px ps-10px pe-10px">
-                                            <span class="d-inline-block">Sustainability</span>
+                                            <span class="d-inline-block">Strategy</span>
                                         </div>
                                     </div>
                                 </div>
@@ -72,7 +72,7 @@
                                 <div class="position-absolute right-0px bottom-minus-1px">
                                     <div class="vertical-title-center">
                                         <div class="title fw-700 fs-15 alt-font text-uppercase text-dark-gray bg-white pt-30px pb-30px ps-10px pe-10px">
-                                            <span class="d-inline-block">Sustainability</span>
+                                            <span class="d-inline-block">Strategy</span>
                                         </div>
                                     </div>
                                 </div>
@@ -97,7 +97,7 @@
                                 <div class="position-absolute right-0px bottom-minus-1px">
                                     <div class="vertical-title-center">
                                         <div class="title fw-700 fs-15 alt-font text-uppercase text-dark-gray bg-linen pt-30px pb-30px ps-10px pe-10px">
-                                            <span class="d-inline-block">Sustainability</span>
+                                            <span class="d-inline-block">Strategy</span>
                                         </div>
                                     </div>
                                 </div>

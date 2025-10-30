@@ -43,9 +43,9 @@ class services extends ServerController
 
     public function regional_bus()
     {
-        $data['page_title'] = 'Regional Bus Services';
+        $data['page_title'] = 'Regional Coach Services';
         $data['type'] = 'service';
-        $data['service'] = 'regional bus services';
+        $data['service'] = 'regional coach services';
         $data['menu_active'] = 'services'; 
         $this->loadView('services/regional_bus', @$data);
     }

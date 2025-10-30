@@ -113,7 +113,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 ps-12 pe-14 xxl-ps-10 xxl-pe-10 xl-pe-8 lg-ps-6 lg-pe-4 md-p-50px sm-ps-30px sm-pe-30px position-relative align-self-center text-md-start text-center"> 
-                            <h2 class="text-dark-gray alt-font fw-600 ls-minus-4px mb-25px">Our team of over 1000 employees are driven by a common purpose:</h2>
+                            <h2 class="text-dark-gray alt-font fw-600 ls-minus-4px mb-25px">Our team of over 200 employees are driven by a common purpose:</h2>
                             <p class="w-95 md-w-100 mb-35px">To redefine urban mobility in Sub-Saharan Africa through a team of talented and passionate individuals committed to driving change. Whether you’re just beginning your career or ready to take the next leap, TSL Metroline Ltd. offers a dynamic platform where your ambition, skill, and purpose can move you forward — as far and as fast as you’re willing to go.</p>
                             <a href="<?php echo base_url(); ?>/careers/available_positions" class="btn btn-extra-large btn-primary fw-400">Search Positions</a>
                         </div>

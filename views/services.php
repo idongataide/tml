@@ -154,7 +154,7 @@
             </div> 
         </section>
         
-        <section>
+        <section class="pb-0">
          <div class="container-fluid">
             <div class="row position-relative">
                 <div class="col swiper swiper-width-auto feather-shadow text-center" 

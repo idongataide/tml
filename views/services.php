@@ -97,7 +97,7 @@
                                         <!-- start services box style --> 
                                         <div class="services-box-style-03 last-paragraph-no-margin border-radius-6px overflow-hidden">
                                             <div class="position-relative">
-                                                <a href="<?php echo base_url(); ?>/services/regional_serives"><img src="<?php echo base_url(); ?>/assets/img/service/reg_1.jpg" alt=""></a>
+                                                <a href="<?php echo base_url(); ?>/services/regional_serives"><img src="<?php echo base_url(); ?>/assets/img/service/regional.jpg" alt=""></a>
                                             </div>
                                             <div class="bg-white">
                                                 <div class="ps-40px pe-40px pt-30px pb-30px text-center">

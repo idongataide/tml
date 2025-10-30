@@ -76,7 +76,7 @@
                         TSL Metroline Limited (TML) is a licensed Bus Operating Company transforming public transportation through modern, efficient, and reliable services that prioritize comfort, accessibility, and affordability.
                     </p>
                     <p class="mb-1" data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        Our high- and medium-capacity buses and coaches serve strategic urban, intercity, and regional routes, offering a smooth, dependable alternative to private car use for work, school, leisure, or errands.
+                        Our high- and medium-capacity buses and coaches serve strategic urban, intercity, and regional routes, offering a smooth, dependable transportation for work, school, leisure, or errands.
                     </p>
                     <p class="mb-1" data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         By easing traffic congestion, improving road safety, reducing emissions, and enhancing commuter access, TML is building a more sustainable and enjoyable transportation experience for all.

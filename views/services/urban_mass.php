@@ -4,11 +4,17 @@
             <div class="row align-items-center small-screen">
                 <div class="col-lg-12 col-sm-12 position-relative page-title-extra-small">
                     <h1 class="mb-15px text-white opacity-7 fw-300 overflow-hidden">
-                        <span class="d-inline-block" data-anime='{ "translateY": [30, 0], "opacity": [0, 1], "easing": "easeOutCubic", "duration": 500, "staggervalue": 300 }'>TML Metroline Services</span>
+                        <span class="d-inline-block" data-anime='{ "translateY": [30, 0], "opacity": [0, 1], "easing": "easeOutCubic", "duration": 500, "staggervalue": 300 }'>TSL Metroline Services</span>
                     </h1>
                     <h2 class="m-auto pb-5px pt-5px t-light fw-600 ls-minus-1px overflow-hidden">
                         <span class="d-inline-block" data-anime='{ "translateY": [30, 0], "opacity": [0, 1], "easing": "easeOutCubic", "duration": 500, "staggervalue": 300, "delay": 200 }'>Urban Mass Transit</span>
                     </h2>
+                    <a href="https://cowry.com.ng/" target="_blank" class="mt-3 btn btn-large btn-primary btn-switch-text btn-box-shadow fw-400">
+                        <span> 
+                            <span class="btn-double-text" data-text="Get Started">Get Started</span> 
+                            <span><i class="feather icon-feather-arrow-right"></i></span>
+                        </span>
+                    </a>  
                 </div> 
             </div>
         </div>

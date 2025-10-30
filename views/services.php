@@ -71,7 +71,7 @@
                                         <!-- start services box style --> 
                                         <div class="services-box-style-03 last-paragraph-no-margin border-radius-6px overflow-hidden">
                                             <div class="position-relative">
-                                                <a href="<?php echo base_url(); ?>/services/intercity_services"><img src="<?php echo base_url(); ?>/assets/img/service/scania.jpg" alt=""></a>
+                                                <a href="<?php echo base_url(); ?>/services/intercity_services"><img src="<?php echo base_url(); ?>/assets/img/service/intercity.jpg" alt=""></a>
                                             </div>
                                             <div class="bg-white">
                                                 <div class="ps-40px pe-40px pt-30px pb-30px text-center">

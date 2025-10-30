@@ -125,8 +125,8 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6 ps-12 pe-14 xxl-ps-10 xxl-pe-10 xl-pe-8 lg-ps-6 lg-pe-4 md-p-50px sm-ps-30px sm-pe-30px position-relative align-self-center text-md-start text-center"> 
-                                    <h1 class="text-dark-gray alt-font  mb-25px">TML: Making Transportation Accessible</h1>
-                                    <p class="w-95 md-w-100 mb-35px">Provides an affordable, accessible, comfortable, reliable, and effective means of public transportation. An iconic project that would attract business & tourists to the state, improving connectivity across major towns and population clusters, and enhancing access to health facilities, schools, and workplaces.</p>
+                                    <h2 class="text-dark-gray alt-font  mb-25px">TML: Making Transportation Accessible</h2>
+                                    <p class="w-95 md-w-100 mb-35px">Provides an affordable, accessible, comfortable, reliable, and effective means of public transportation. A transportation system that would attract business & tourists to the state, improving connectivity across major towns and population clusters, and enhancing access to health facilities, schools, and workplaces.</p>
                                 </div>
                             </div>
                         </div>

@@ -105,7 +105,7 @@
                                                     <p>Our regional services make it simple for you to travel to nearby areas.</p> 
                                                 </div> 
                                                 <div class="d-flex justify-content-center border-top border-color-extra-medium-gray pt-20px pb-20px ps-50px pe-50px position-relative text-center">
-                                                    <a href="regional_bus" class="btn btn-link shadow-0 btn-hover-animation-switch btn-medium fw-700 text-dark-gray text-uppercase">
+                                                    <a href="/services/regional_bus" class="btn btn-link shadow-0 btn-hover-animation-switch btn-medium fw-700 text-dark-gray text-uppercase">
                                                         <span>
                                                             <span class="btn-text">Explore services</span>
                                                             <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>

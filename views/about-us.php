@@ -26,7 +26,7 @@
                             <i class="bi bi-emoji-smile text-dark-gray icon-medium"></i>
                         </div>
                         <div class="feature-box-content">
-                            <span class="fs-16 w-80 sm-w-90 d-block"><span class="fw-700 text-dark-gray">Over 16 Million Passengers </span> <br> Approximately 1 in every 14 Nigerian.</span>
+                            <span class="fs-16 w-80 sm-w-90 d-block"><span class="fw-700 text-dark-gray">Over 16 Million Passengers </span> <br> Approximately 1 in every 14 Nigerians.</span>
                         </div>
                       
                     </div>

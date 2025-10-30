@@ -75,14 +75,14 @@
                                         <li><a href="<?php echo base_url(); ?>/services/bus_charter" class="<?php echo $menu_active === 'bus_charter' ? 'active' : ''; ?>">Bus Charter</a></li>                                       
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown dropdown-with-icon-style02">
+                                <!-- <li class="nav-item dropdown dropdown-with-icon-style02">
                                     <a href="#" class="nav-link">Companies</a>
                                     <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
                                         <li><a href="<?php echo base_url(); ?>/#">TSL Logistics</a></li>                                       
                                         <li><a href="<?php echo base_url(); ?>/#">Transport Services Limited</a></li>
                                     </ul>
-                                </li>
+                                </li> -->
                                 <li class="nav-item"><a href="<?php echo base_url(); ?>/sustainability" class="nav-link <?php echo $menu_active === 'sustainability' ? 'active' : ''; ?>">Sustainability</a></li> 
                                 <li class="nav-item dropdown submenu">
                                     <a href="<?php echo base_url(); ?>/careers" class="nav-link <?php echo $menu_active === 'careers' ? 'active' : ''; ?>">Careers</a>
@@ -94,7 +94,7 @@
                                                 <li><a href="<?php echo base_url(); ?>/careers/available_positions" class="<?php echo $menu_active === 'available_positions' ? 'active' : ''; ?>">All Jobs</a></li>                                               
                                             </ul>
                                             <ul class="col">  
-                                                <li class="sub-title">Life at TSL</li>
+                                                <li class="sub-title">Life at TML</li>
                                                 <li><a href="<?php echo base_url(); ?>/careers#bemore" class="<?php echo $menu_active === 'bemore' ? 'active' : ''; ?>">Be More</a></li>                                             
                                                 <li><a href="<?php echo base_url(); ?>/careers#diversity" class="<?php echo $menu_active === 'diversity' ? 'active' : ''; ?>">Diversity and Inclusiveness</a></li>                                             
                                             </ul>

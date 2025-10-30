@@ -48,7 +48,7 @@
             </div>
             <div class="col-xl-5 col-lg-5 offset-lg-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                <h3 class="alt-font fw-700 text-dark-gray ls-minus-1px shadow-none" data-fancy-text='{ "opacity": [0, 1], "translateY": [50, 0], "filter": ["blur(20px)", "blur(0px)"], "string": ["Join our team"], "duration": 400, "delay": 0, "speed": 50, "easing": "easeOutQuad" }'></h3>
-               <p data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>Our businesses work together to deliver brilliant solutions to our customers, and our teams are organized across individual, operating business units. Get to know the TML Companies to find an opportunity that’s right for you.</p> 
+               <p data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>Our businesses work together to deliver brilliant solutions to our customers, and our teams are organized across individual, operating business units. Get to know the TSL Metroline Limited to find an opportunity that’s right for you.</p> 
                <a href="#" class="btn btn-extra-large btn-primary fw-400">Search Positions</a>
             </div>
         </div>                 

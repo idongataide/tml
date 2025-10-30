@@ -56,7 +56,7 @@
                         </div>
                         <div id="faq-03" class="accordion-collapse collapse" data-bs-parent="#accordion-style-02">
                             <div class="accordion-body last-paragraph-no-margin">
-                                <p>Yes, we do. Click <a href="/careers/starting_career">here</a> to take you to our step program page</p>
+                                <p>Yes, we do. Click <a href="/careers/starting_career">here</a> to take you to our STEP program page</p>
                             </div>
                         </div>
                     </div>

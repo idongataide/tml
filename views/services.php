@@ -4,7 +4,7 @@
             <div class="row align-items-center small-screen">
                 <div class="col-lg-12 col-sm-12 position-relative page-title-extra-small">
                     <h1 class="mb-15px text-white opacity-7 fw-300 overflow-hidden">
-                        <span class="d-inline-block" data-anime='{ "translateY": [30, 0], "opacity": [0, 1], "easing": "easeOutCubic", "duration": 500, "staggervalue": 300 }'>TML Metroline Services</span>
+                        <span class="d-inline-block" data-anime='{ "translateY": [30, 0], "opacity": [0, 1], "easing": "easeOutCubic", "duration": 500, "staggervalue": 300 }'>TSL Metroline Limited</span>
                     </h1>
                     <h2 class="m-auto pb-5px pt-5px t-light fw-600 ls-minus-1px overflow-hidden">
                         <span class="d-inline-block" data-anime='{ "translateY": [30, 0], "opacity": [0, 1], "easing": "easeOutCubic", "duration": 500, "staggervalue": 300, "delay": 200 }'>What We Do</span>
@@ -16,51 +16,6 @@
     
     
     
-<!--<section class="overflow-hidden">-->
-<!--        <div class="container">          -->
-<!--            <div class="row row-cols-1 row-cols-lg-3 justify-content-center" data-anime='{ "el": "childs", "translateY": [30, 0], "translateX": [30, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>-->
-                <!-- start features box item -->
-<!--                <div class="col icon-with-text-style-01 pe-5 md-mb-30px">-->
-<!--                    <div class="separator-line-1px bg-extra-medium-gray w-100 mb-30px d-none d-lg-block"></div>-->
-<!--                    <div class="feature-box feature-box-left-icon last-paragraph-no-margin">-->
-<!--                        <div class="feature-box-content">-->
-<!--                            <span class="fs-16 w-80 sm-w-90 d-block"><span class="fw-700 text-dark-gray">16Million Passengers </span> <br> Almost the estimated population of Oyo & Ogun State combined.</span>-->
-<!--                        </div>-->
-<!--                        <div class="feature-box-icon me-0 mt-5px md-mt-0">-->
-<!--                            <i class="bi bi-emoji-smile text-dark-gray icon-medium"></i>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-                <!-- end features box item -->
-                <!-- start features box item -->
-<!--                <div class="col icon-with-text-style-01 pe-5 md-mb-30px">-->
-<!--                    <div class="separator-line-1px bg-extra-medium-gray w-100 mb-30px d-none d-lg-block"></div>-->
-<!--                    <div class="feature-box feature-box-left-icon last-paragraph-no-margin">-->
-<!--                        <div class="feature-box-content">-->
-<!--                            <span class="fs-16 w-80 sm-w-90 d-block"><span class="fw-700 text-dark-gray">9.2 Million Kilometers </span> <br> Average of 5,000 KM per bus per month </span>-->
-<!--                        </div>-->
-<!--                        <div class="feature-box-icon me-0 mt-5px md-mt-0">-->
-<!--                            <i class="fa fa-road text-dark-gray icon-medium"></i>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-                <!-- end features box item -->
-                <!-- start features box item -->
-<!--                <div class="col icon-with-text-style-01 pe-5 md-mb-30px sm-mb-0">-->
-<!--                    <div class="separator-line-1px bg-extra-medium-gray w-100 mb-30px d-none d-lg-block"></div>-->
-<!--                    <div class="feature-box feature-box-left-icon last-paragraph-no-margin">-->
-<!--                        <div class="feature-box-content">-->
-<!--                            <span class="fs-16 w-80 sm-w-90 d-block"><span class="fw-700 text-dark-gray">180 Bus Fleet </span> <br>State-owned and self-owned fleet “Current and past” </span>-->
-<!--                        </div>-->
-<!--                        <div class="feature-box-icon me-0 mt-5px md-mt-0">-->
-<!--                            <i class="bi bi-bus-front text-dark-gray icon-medium"></i>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-                <!-- end features box item -->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
 
 
 
@@ -83,7 +38,7 @@
                 <div class="row align-items-center" data-anime='{ "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                     <div class="col-12">
                         <div class="outside-box-right-20 sm-outside-box-right-0">
-                            <div class="swiper magic-cursor- slider-one-slide" data-slider-options='{ "slidesPerView": 1, "spaceBetween": 30, "loop": false, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 3 }, "992": { "slidesPerView": 3 }, "768": { "slidesPerView": 2 }, "320": { "slidesPerView": 1 } }, "effect": "slide" }'>
+                            <div class="swiper magic-cursor- slider-one-slide" data-slider-options='{ "slidesPerView": 1, "spaceBetween": 30, "loop": true, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 3.3 }, "992": { "slidesPerView": 3 }, "768": { "slidesPerView": 2 }, "320": { "slidesPerView": 1 } }, "effect": "slide" }'>
                                 <div class="swiper-wrapper">
                                     <!-- start slider item --> 
                                     <div class="swiper-slide">

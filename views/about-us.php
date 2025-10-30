@@ -22,12 +22,13 @@
                 <div class="col icon-with-text-style-01 pe-5 md-mb-30px">
                     <div class="separator-line-1px bg-extra-medium-gray w-100 mb-30px d-none d-lg-block"></div>
                     <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
+                        <div class="feature-box-icon mr-10 mt-5px md-mt-0">
+                            <i class="bi bi-emoji-smile text-dark-gray icon-medium"></i>
+                        </div>
                         <div class="feature-box-content">
                             <span class="fs-16 w-80 sm-w-90 d-block"><span class="fw-700 text-dark-gray">Over 16 Million Passengers </span> <br> Almost the estimated population of Oyo & Ogun State combined.</span>
                         </div>
-                        <div class="feature-box-icon me-0 mt-5px md-mt-0">
-                            <i class="bi bi-emoji-smile text-dark-gray icon-medium"></i>
-                        </div>
+                      
                     </div>
                 </div>
                 <!-- end features box item -->
@@ -35,11 +36,12 @@
                 <div class="col icon-with-text-style-01 pe-5 md-mb-30px">
                     <div class="separator-line-1px bg-extra-medium-gray w-100 mb-30px d-none d-lg-block"></div>
                     <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
+                       
+                        <div class="feature-box-icon mr-10 mt-5px md-mt-0">
+                            <i class="fa fa-road text-dark-gray icon-medium"></i>
+                        </div>
                         <div class="feature-box-content">
                             <span class="fs-16 w-80 sm-w-90 d-block"><span class="fw-700 text-dark-gray">9.2 Million Kilometers </span> <br> Average of 5,000 KM per bus per month </span>
-                        </div>
-                        <div class="feature-box-icon me-0 mt-5px md-mt-0">
-                            <i class="fa fa-road text-dark-gray icon-medium"></i>
                         </div>
                     </div>
                 </div>
@@ -48,11 +50,12 @@
                 <div class="col icon-with-text-style-01 pe-5 md-mb-30px sm-mb-0">
                     <div class="separator-line-1px bg-extra-medium-gray w-100 mb-30px d-none d-lg-block"></div>
                     <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
-                        <div class="feature-box-content">
-                            <span class="fs-16 w-80 sm-w-90 d-block"><span class="fw-700 text-dark-gray">180 Bus Fleet </span> <br>State-owned and self-owned fleet “Current and past” </span>
-                        </div>
-                        <div class="feature-box-icon me-0 mt-5px md-mt-0">
+                        
+                        <div class="feature-box-icon mr-10 mt-5px md-mt-0">
                             <i class="bi bi-bus-front text-dark-gray icon-medium"></i>
+                        </div>
+                        <div class="feature-box-content">
+                            <span class="fs-16 w-80 sm-w-90 d-block"><span class="fw-700 text-dark-gray">180 Bus Fleet </span> <br>State-owned and self-owned fleet </span>
                         </div>
                     </div>
                 </div>

@@ -293,7 +293,7 @@
                                         <figcaption class="d-flex flex-column align-items-start justify-content-start position-absolute left-0px top-0px w-100 h-100 z-index-1 p-14 lg-p-10">
                                             <div class="d-flex w-100 align-items-center">
                                                 <div class="col last-paragraph-no-margin">
-                                                    <a href="#" class="text-white fs-21 lh-40 d-block head head2">Trusted Regulatory & Stakeholder Relationships: </a>
+                                                    <a href="#" class="text-white fs-24 lh-30 d-block head head2">Trusted Regulatory & Stakeholder Relationships: </a>
                                                 </div>
                                             </div>
                                             <div class="position-absolute left-0px top-0px w-100 h-100 bg-gradient-dark-transparent z-index-minus-1 opacity-9"></div>
@@ -366,22 +366,4 @@
 </section>
 
 
-       
-        <?php include 'layouts/core-values.php'?> 
-
-       
-        <!-- <section class="position-relative overflow-hidden py-0">
-            <div class="skrollr-parallax mx-auto pt-7 pb-7 md-pt-12 md-pb-12" data-bottom-top="width: 63%" data-center-top="width: 100%;" data-parallax-background-ratio="0.5" style="background-image: url('<?php echo base_url(); ?>/assets/img/banner/breadcrumb/regional.webp')">
-                <div class="opacity-medium gradient-black"></div>
-                <div class="container">                   
-                    <div class="row justify-content-center align-items-center">
-                        <div class="col-xl-8 col-lg-10 position-relative text-center parallax-scrolling-style-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <span class="fw-500 text-white text-uppercase mb-5px d-inline-block ls-1px">Reliable, Efficient, Accessible</span>
-                            <h1 class="text-white mx-auto alt-font fw-500 mb-40px  ">Experience a New Era of Commuting with TSL Metroline.</h1>
-                            <a href="about.php" class="btn btn-large btn-expand-ltr text-white btn-rounded fw-700" style=""><span class="bg-base-color"></span>About TML</a>                    </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <?php include 'layouts/latest-news.php'?> 
+<?php include 'layouts/latest-news.php'?> 

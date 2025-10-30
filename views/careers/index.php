@@ -148,7 +148,7 @@
 </section>
   
 
-<section class="p-0 mb-10 mt-10">
+<section class="p-0 mb-5 mt-5">
             <div class="container">
                 <div class="row">
                     <div class="col-xxl-6 col-lg-7" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>

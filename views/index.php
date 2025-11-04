@@ -95,7 +95,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-5 position-relative offset-lg-1 offset-md-2"> 
                         <div class="w-80 overflow-hidden position-relative md-w-90 border-radius-6px float-end" data-anime='{ "effect": "slide", "color": "#008080", "direction":"rl", "easing": "easeOutQuad", "duration": 600, "delay":500}'>
-                            <img class="w-100" src="<?php echo base_url(); ?>/assets/img/009.webp" alt="">
+                            <img class="w-100" src="<?php echo base_url(); ?>/assets/img/about.webp" alt="">
                         </div>
                         <div class="position-absolute left-minus-70px bottom-minus-30px w-60 overflow-hidden md-left-minus-100px sm-left-15px" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)" data-anime='{ "effect": "slide", "color": "#36332e", "direction":"lr", "easing": "easeOutQuad", "duration": 600, "delay":500}'>
                             <img class="w-100 border-radius-6px" src="<?php echo base_url(); ?>/assets/img/about/slide.webp" alt="">

@@ -68,11 +68,13 @@
                     <!-- end copyright -->
                     <!-- start footer menu -->
                     <div class="col-lg-7 pt-25px pb-25px md-pb-5px fs-16 order-1 order-lg-2 text-center text-lg-end">
-                        <ul class="footer-navbar sm-lh-normal"> 
-                            <li><a href="#" class="nav-link">Privacy policy</a></li>
-                            <li><a href="#" class="nav-link">Terms and conditions</a></li>
-                            <li><a href="#" class="nav-link">Copyright</a></li>
-                        </ul>
+                       <div class="col-lg-7 pt-25px pb-25px md-pb-5px fs-16 order-1 order-lg-2 text-center text-lg-end">
+                            <ul class="footer-navbar sm-lh-normal"> 
+                                <li><a href="<?php echo base_url(); ?>/privacy" class="nav-link">Privacy policy</a></li>
+                                <li><a href="<?php echo base_url(); ?>/terms" class="nav-link">Terms and conditions</a></li>
+                                <li><a href="#" class="nav-link">Copyright</a></li>
+                            </ul>
+                        </div>
                     </div>
                     <!-- end footer menu -->
                 </div>

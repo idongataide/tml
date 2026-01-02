@@ -19,7 +19,7 @@ class home extends ServerController
     {
         $curl = curl_init();
         curl_setopt_array($curl, [
-            CURLOPT_URL => 'https://tml.lifevantagenigeria.com/api/latest-news',
+            CURLOPT_URL => 'https://tmlapi.ufainiibom.com/api/latest-news',
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_CUSTOMREQUEST => 'GET',
             CURLOPT_HTTPHEADER => [

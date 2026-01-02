@@ -1,13 +1,10 @@
-<?php include 'header.php'?>
-
-
     <section class="page-title-big-typography breadcrumbs bg-dark-gray ipad-top-space-margin cover-background md-py-0" style="background-image: url(<?php echo base_url(); ?>/assets/img/banner/breadcrumb/Services.webp)"> 
     <div class="opacity-medium gradient-black"></div>   
         <div class="container">
             <div class="row align-items-center small-screen">
                 <div class="col-lg-12 col-sm-12 position-relative page-title-extra-small">
                     <h1 class="mb-15px text-white opacity-7 fw-300 overflow-hidden">
-                        <span class="d-inline-block" data-anime='{ "translateY": [30, 0], "opacity": [0, 1], "easing": "easeOutCubic", "duration": 500, "staggervalue": 300 }'>TML Metroline Services</span>
+                        <span class="d-inline-block" data-anime='{ "translateY": [30, 0], "opacity": [0, 1], "easing": "easeOutCubic", "duration": 500, "staggervalue": 300 }'>TSL Metroline Services</span>
                     </h1>
                     <h2 class="m-auto pb-5px pt-5px t-light fw-600 ls-minus-1px overflow-hidden">
                         <span class="d-inline-block" data-anime='{ "translateY": [30, 0], "opacity": [0, 1], "easing": "easeOutCubic", "duration": 500, "staggervalue": 300, "delay": 200 }'>Contact Us</span>
@@ -51,7 +48,7 @@
                                 <div class="rotate-content-front z-index-2">
                                     <i class="line-icon-Headset icon-extra-large text-base-color mb-25px"></i>
                                     <div class="fs-19 text-dark-gray fw-500 mb-5px">Let's talk with us</div>
-                                    <span class="w-60 lg-w-75 md-w-70 xs-w-60 d-block m-auto">Phone: 08002255875</span>
+                                    <span class="w-80 lg-w-75 md-w-70 xs-w-60 d-block m-auto">Phone: 08002255875</span>
                                 </div>
                             </div>
                             <!-- end front side -->
@@ -79,8 +76,7 @@
                                 <div class="rotate-content-front z-index-2">
                                     <i class="line-icon-Mail-Read icon-extra-large text-base-color mb-25px"></i>
                                     <div class="fs-19 text-dark-gray fw-500 mb-5px">Need live support?</div> 
-                                    <span class="w-60 lg-w-75 md-w-70 xs-w-60 d-block m-auto">Reach us on customerservice@tsllimited.com</span>
-                                    
+                                    <span class="">Reach us on customerservice@tsllimited.com</span>                                    
                                 </div>
                             </div>
                             <!-- end front side -->
@@ -168,4 +164,3 @@
             </div>
         </section>
 
-<?php include 'footer.php'?>

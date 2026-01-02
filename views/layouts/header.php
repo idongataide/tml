@@ -75,14 +75,14 @@
                                         <li><a href="<?php echo base_url(); ?>/services/bus_charter" class="<?php echo $menu_active === 'bus_charter' ? 'active' : ''; ?>">Bus Charter</a></li>                                       
                                     </ul>
                                 </li>
-                                <!-- <li class="nav-item dropdown dropdown-with-icon-style02">
-                                    <a href="#" class="nav-link">Companies</a>
+                                <li class="nav-item dropdown dropdown-with-icon-style02">
+                                    <a href="<?php echo base_url(); ?>/about" class="nav-link">Companies</a>
                                     <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
-                                        <li><a href="<?php echo base_url(); ?>/#">TSL Logistics</a></li>                                       
-                                        <li><a href="<?php echo base_url(); ?>/#">Transport Services Limited</a></li>
+                                        <li><a target="_blank" href="https://tsllimited.com">TSL Limited</a></li>
+                                        <li><a target="_blank" href="https://tsllogisticsltd.com/">TSL Logistics</a></li>                                       
                                     </ul>
-                                </li> -->
+                                </li>
                                 <li class="nav-item"><a href="<?php echo base_url(); ?>/sustainability" class="nav-link <?php echo $menu_active === 'sustainability' ? 'active' : ''; ?>">Sustainability</a></li> 
                                 <li class="nav-item dropdown submenu">
                                     <a href="<?php echo base_url(); ?>/careers" class="nav-link <?php echo $menu_active === 'careers' ? 'active' : ''; ?>">Careers</a>

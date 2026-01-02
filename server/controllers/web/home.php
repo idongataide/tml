@@ -8,7 +8,7 @@ class home extends ServerController
 
     public function index()
     {    
-        $data['page_title'] = 'TML - Transport Company';
+        $data['page_title'] = 'TML - Transport Metroline Limited';
         $data['menu_active'] = 'index';
         $data['latest'] = $this->latestnews();
         $data['menu_active'] = 'home'; 

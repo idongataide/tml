@@ -1,12 +1,12 @@
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
-        <title> <?php echo @$data['page_title'] ?: 'TML - Index'; ?></title>
+        <title> <?php echo @$data['page_title'] ?: 'TSL Metroline Limited - Index'; ?></title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="author" content="TML">
+        <meta name="author" content="Hardensoft Limited">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <meta name="description" content="TSL Metroline Limited "TML or TSL Metroline" is a licensed Bus Operating Company (BOC) to operate a modern
+        <meta name="description" content="TSL Metroline Limited 'TML or TSL Metroline' is a licensed Bus Operating Company (BOC) to operate a modern
         and efficient bus service with high premium on commuter's comfort, accessibility, affordability and reliability
         to replace the existing chaotic system that is obtainable">
         <!-- favicon icon -->

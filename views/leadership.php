@@ -26,7 +26,7 @@ $team_members = [
     ["name" => "Olusola Iwasanmi", "position" => "Head, Commercial & Business Intelligence", "delay" => "300", "link" => "{$base_url}/about/leaderships/3"],
     ["name" => "Olalekan Olagunju", "position" => "Head, Safety, Security & Quality", "delay" => "400", "link" => "{$base_url}/about/leaderships/4"],
     ["name" => "Olusegun Adeyemo", "position" => "Head, Drivers’ Administration", "delay" => "500", "link" => "{$base_url}/about/leaderships/5"],
-    ["name" => "Emem Ogheneochuko", "position" => "Head, Human Resources & Admin", "delay" => "600", "link" => "{$base_url}/about/leaderships/6"],
+    // ["name" => "Emem Ogheneochuko", "position" => "Head, Human Resources & Admin", "delay" => "600", "link" => "{$base_url}/about/leaderships/6"],
 ];
 
 ?>

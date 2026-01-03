@@ -10,9 +10,9 @@
         and efficient bus service with high premium on commuter's comfort, accessibility, affordability and reliability
         to replace the existing chaotic system that is obtainable">
         <!-- favicon icon -->
-        <link rel="shortcut icon" href="<?php echo base_url(); ?>/assets/img/fav.webp">
-        <link rel="apple-touch-icon" href="<?php echo base_url(); ?>/assets/img/fav.webp">
-        <link rel="apple-touch-icon" sizes="72x72" href="<?php echo base_url(); ?>/assets/img/fav.webp">
+        <link rel="shortcut icon" href="<?php echo base_url(); ?>/assets/img/logo/favico.png">
+        <link rel="apple-touch-icon" href="<?php echo base_url(); ?>/assets/img/logo/favico.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="<?php echo base_url(); ?>/assets/img/logo/favico.png">
         
         <!-- style sheets and font icons  -->
         <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/vendors.min.css">

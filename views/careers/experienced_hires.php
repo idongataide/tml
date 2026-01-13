@@ -1,3 +1,6 @@
+<?php
+    $jobs = $data['jobs'] ?? [];
+?>
 <section class="top-space-padding pb-0- bg-gradient-very-light-primary overflow-hidden position-relative lg-pb-30px"> 
     <div class="container h-100">
         <div class="position-absolute top-120px left-40 animation-rotation d-none d-xl-block">
@@ -17,7 +20,7 @@
                 </div>
                 <h1 class="alt-font text-dark-gray fw-700 mb-20px">Experienced Hires </h1> 
                 <div class="alt-font fw-500 fs-16 w-90 sm-w-100 mb-35px xs-mb-25px">You're talented, experienced and ready for a new challenge. At TML, you have the chance to make a genuine impact in the environment we operate in. We are constantly looking out for people who share a common objective, attitude, outlook & passion; where ambitious plans are turned into reality.</div>
-                <a href="#" class="btn btn-extra-large btn-primary fw-400">Search Positions</a>
+                <a href="<?php echo base_url(); ?>/careers/available_positions" class="btn btn-extra-large btn-primary fw-400">Search Positions</a>
             </div> 
             <div class="col-xl-5 col-lg-5 align-self-end d-m-none">
                 <div class="position-absolute bottom-100px md-bottom-5 lg-w-65 md-w-100">
@@ -109,8 +112,7 @@
         </div>
     </div>
 </section>
-
-<section class="bg-light position-relative overlap-height">
+<section class="bg-light position-relative overlap-height" id="job-listings">
     <div class="position-absolute left-minus-200px top-25" data-bottom-top="transform: translateY(-80px)" data-top-bottom="transform: translateY(80px)">
         <img src="<?php echo base_url(); ?>/assets/img/careers/demo-elearning-bg-04.webp" alt="">
     </div>
@@ -124,41 +126,66 @@
                 <!-- filter navigation -->
                 <ul class="portfolio-filter fw-500 nav nav-tabs justify-content-center justify-content-xl-end border-0">
                     <li class="nav active"><a data-filter="*" href="#">All</a></li>
-                    <li class="nav"><a data-filter=".development" href="#">Development</a></li>                            
                 </ul>
                 <!-- end filter navigation --> 
             </div>
         </div> 
+        
+        <?php if (!empty($jobs)): ?>
         <div class="row">
             <div class="col-12 filter-content p-md-0">
                 <ul class="portfolio-wrapper grid-loading grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-2col md-grid-2col sm-grid-1col xs-grid-1col gutter-extra-large">
                     <li class="grid-sizer"></li>
-                    <!-- start portfolio item -->
+                    
+                    <!-- Start dynamic job listings -->
+                    <?php foreach ($jobs as $job): ?>
                     <li class="grid-item design transition-inner-all">
                         <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">                                
                             <div class="bg-white position-relative">
                                 <div class="ps-35px pe-35px pt-30px pb-30px border-bottom border-color-transparent-dark-very-light xl-ps-25px xl-pe-25px">
-                                    <span class="d-block mb-10px"><a href="demo-elearning-courses.html" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Department</a><span class="fs-16">Fleet</span></span>
+                                    <span class="d-block mb-10px">
+                                        <a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Department</a> <br/>
+                                        <span class="fs-13 text-dark-gray"><?= htmlspecialchars($job['department'] ?? 'N/A') ?></span>
+                                    </span>
                                     <div class="d-flex align-items-center mb-5px">
-                                        <a href="demo-elearning-courses-details.html" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Proffesional Tanker Driver for </a>
-                                    </div>                                            
+                                        <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90"><?= htmlspecialchars($job['title']) ?></a>
+                                    </div>
+                                    <div class="mb-10px">
+                                        <span class="badge bg-light text-dark border">Ref: <?= $job['reference'] ?></span>
+                                    </div>
+                                    <p class="text-dark-gray fs-15"><?= substr(strip_tags($job['description']), 0, 120) ?>...</p>                                         
                                 </div> 
                                 <div class="d-flex justify-content-center align-items-center ps-35px pe-35px xl-ps-25px xl-pe-25px pt-15px pb-20px">
                                     <div class="me-auto">
-                                        <i class="feather icon-feather-clipboard text-dark-gray d-inline-block me-5px"></i><span class="fs-16 text-dark-gray fw-500">12/23/2024</span>
+                                        <i class="feather icon-feather-map-pin text-dark-gray d-inline-block me-5px"></i>
+                                        <span class="fs-16 text-dark-gray fw-500"><?= ucfirst($job['location']) ?></span>
                                     </div>
                                     <div>
-                                        <a href="#" class="btn btn-link-gradient expand btn-extra-large text-dark-gray d-table d-lg-inline-block xl-mb-15px md-mx-auto">View Details<span class="bg-dark-gray"></span></a>
+                                        <a href="<?= base_url() ?>/careers/job_details/<?= $job['id'] ?>" class="btn expand btn-extra-large text-dark-gray d-table d-lg-inline-block xl-mb-15px md-mx-auto">
+                                            View Details<span class="bg-dark-gray"></span>
+                                        </a>
                                     </div>  
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <!-- end portfolio item -->
+                    <?php endforeach; ?>
+                    <!-- End dynamic job listings -->
                     
                 </ul>
             </div>
         </div>
+        <?php else: ?>
+        <!-- No jobs available message -->
+        <div class="row">
+            <div class="col-12 text-center py-5">
+                <div class="alert alert-info d-inline-block">
+                    <h4 class="text-dark-gray fw-600 mb-3">No Positions Currently Available</h4>
+                    <p class="mb-0">There are no open positions at the moment. Please check back later for new opportunities.</p>
+                </div>
+            </div>
+        </div>
+        <?php endif; ?>
         
     </div>
 </section>

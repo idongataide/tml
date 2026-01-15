@@ -120,7 +120,6 @@ class contact extends ServerController
         $booking_address = validator::GetInputValueString(@$body, 'booking_address');
         $destination_address = validator::GetInputValueString(@$body, 'destination_address');
         $date = validator::GetInputValueString(@$body, 'date');
-        $service = validator::GetInputValueString(@$body, 'service');
         
         // Validation for booking
         $validationErrors = [];
@@ -153,7 +152,6 @@ class contact extends ServerController
             $validationErrors[] = 'Please select a valid date (format: YYYY-MM-DD)';
         }
         
-        // Validate future date (optional)
         if ($date !== '' && $this->validateDate($date)) {
             $selectedDate = new DateTime($date);
             $today = new DateTime();
@@ -161,10 +159,7 @@ class contact extends ServerController
                 $validationErrors[] = 'Please select a future date';
             }
         }
-        
-        if ($service === '') {
-            $validationErrors[] = 'Service type is required';
-        }
+      
         
         if (!empty($validationErrors)) {
             return helper::Output_Error(null, implode(', ', $validationErrors));
@@ -173,7 +168,6 @@ class contact extends ServerController
         $curl = curl_init();
 
         $data = [
-            'service' => $service,
             'name' => $name,
             'email' => $email,
             'phone' => $phone,
@@ -210,13 +204,13 @@ class contact extends ServerController
         
         $decodedResponse = json_decode($response, true);
 
-        
+            
         if (json_last_error() !== JSON_ERROR_NONE) {
-            return helper::Output_Error(null, 'Invalid response from server');
+            return helper::Output_Error(null, 'Invalid response from serverss');
         }
         
         if (!isset($decodedResponse['status'])) {
-            return helper::Output_Error(null, 'Invalid response format from server');
+            return helper::Output_Error(null, 'Invalid response format from serverx');
         }
         
         if ($decodedResponse['status'] == 'success') {

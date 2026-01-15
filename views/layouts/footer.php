@@ -159,44 +159,42 @@
             </script>
             <script>
                 document.addEventListener("DOMContentLoaded", function () {
-                    const form = document.querySelector(".contact-form form");
-                    const resultBox = form.querySelector(".form-results");
+                    // Select all contact forms you want to handle via JS
+                    const forms = document.querySelectorAll(".contact-form form, .contact-form-style-01");
 
-                    form.addEventListener("submit", function (e) {
-                        e.preventDefault();
+                    forms.forEach(form => {
+                        const resultBox = form.querySelector(".form-results");
 
-                        resultBox.classList.remove("d-none");
-                        resultBox.innerHTML = "Sending message...";
+                        form.addEventListener("submit", function (e) {
+                            e.preventDefault();
 
-                        const formData = new FormData(form);
+                            resultBox.classList.remove("d-none");
+                            resultBox.innerHTML = "Sending message...";
 
-                        fetch(form.action, {
-                            method: "POST",
-                            body: formData
-                        })
-                        .then(res => res.json())
-                        .then(data => {
-                            if (data.status === "success") {
+                            const formData = new FormData(form);
+
+                            fetch(form.action, {
+                                method: "POST",
+                                body: formData
+                            })
+                            .then(res => res.json())
+                            .then(data => {
+                                if (data.status === "success") {
+                                    resultBox.innerHTML = `
+                                        <div class="alert alert-success">${data.message}</div>
+                                    `;
+                                    form.reset();
+                                } else {
+                                    resultBox.innerHTML = `
+                                        <div class="alert alert-danger">${data.message}</div>
+                                    `;
+                                }
+                            })
+                            .catch(() => {
                                 resultBox.innerHTML = `
-                                    <div class="alert alert-success">
-                                        ${data.message}
-                                    </div>
+                                    <div class="alert alert-danger">Something went wrong. Please try again.</div>
                                 `;
-                                form.reset();
-                            } else {
-                                resultBox.innerHTML = `
-                                    <div class="alert alert-danger">
-                                        ${data.message}
-                                    </div>
-                                `;
-                            }
-                        })
-                        .catch(() => {
-                            resultBox.innerHTML = `
-                                <div class="alert alert-danger">
-                                    Something went wrong. Please try again.
-                                </div>
-                            `;
+                            });
                         });
                     });
                 });

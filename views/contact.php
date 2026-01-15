@@ -112,6 +112,7 @@
                     <div class="col-xl-9 overflow-hidden">
                         <!-- start contact form -->
                         <form action="<?php echo base_url(); ?>/contact/index" method="post" class="row contact-form-style-01">
+                            
                             <div class="col-md-6 mb-20px">
                                 <div class="position-relative form-group">
                                     <span class="form-icon"><i class="bi bi-person"></i></span>

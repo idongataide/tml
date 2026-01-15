@@ -25,23 +25,7 @@
                 <div class="row">
                     <div class="col-lg-4 pe-5 order-2 order-lg-1 lg-pe-3 md-pe-15px" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
                         <div class="position-sticky top-50px">
-                           <?php include 'sidebar.php'?>
-                            <div class="bg-very-light-gray border-radius-6px p-35px lg-p-25px md-p-35px xs-p-25px">
-                                <span class="fs-22 ls-minus-05px alt-font text-dark-gray fw-600 mb-20px d-inline-block">How can we help you?</span>
-                                <div class="contact-form-style-04">
-                                    <!-- start contact form -->
-                                     <form action="<?php echo base_url(); ?>/contact/index" method="post">
-                                        <input class="box-shadow-double-large input-small mb-15px form-control required" type="text" name="name" placeholder="Your name*">
-                                        <input class="box-shadow-double-large input-small mb-15px form-control required" type="email" name="email" placeholder="Your email address*">
-                                        <input class="box-shadow-double-large input-small mb-15px form-control required" type="tel" name="phone" placeholder="Your phone no*">
-                                        <textarea class="box-shadow-double-large input-small mb-15px form-control required" name="message" placeholder="Your message" rows="4"></textarea>
-                                        <input type="hidden" name="service" value="<?= $data['service']?>">
-                                        <button class="btn btn-small btn-round-edge btn-base-color btn-box-shadow submit w-100" type="submit">Send message</button>
-                                        <div class="form-results mt-20px d-none"></div>
-                                    </form>
-                                    <!-- end contact form -->  
-                                </div>
-                            </div>
+                           <?php include 'sidebar.php'?>                            
                         </div>
                     </div>
                     <div class="col-lg-8 order-1 order-lg-2 md-mb-50px" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
@@ -69,36 +53,43 @@
                         <span class="fs-16 lh-22 fw-700 mb-15px d-inline-block text-uppercase text-dark-gray border-bottom border-2 border-color-base-color">TML Metroline Services</span>
                         <h2 class="fw-600 text-dark-gray ls-minus-1px mb-45px-">Charter a Bus</h2>
                         <p class="fs-16">At TSL Metroline, we recognize that sometimes, standard transportation services just aren't enough. That's why we offer our Bus Charter Services, providing tailored travel solutions to meet your specific needs.</p>
+                        
                         <!-- start contact form -->
-                        <form action="email-templates/contact-form.php" method="post" class="row contact-form-style-01">    
+                        <form action="<?php echo base_url(); ?>/contact" method="post" class="row contact-form-style-01">    
                             <div class="col-md-6 mb-30px sm-mb-20px">
                                 <div class="position-relative form-group mb-20px">
                                     <span class="form-icon"><i class="bi bi-person"></i></span>
-                                    <input class="input-name box-shadow-double-large form-control required" type="text" name="name" placeholder="Your name">
+                                    <input class="input-name box-shadow-double-large form-control required" type="text" name="name" placeholder="Your name" required>
                                 </div>
                                 <div class="position-relative form-group mb-20px">
                                     <span class="form-icon"><i class="bi bi-envelope"></i></span>
-                                    <input class="box-shadow-double-large form-control required" type="email" name="email" placeholder="Your email">
+                                    <input class="box-shadow-double-large form-control required" type="email" name="email" placeholder="Your email" required>
                                 </div>
-                                <div class="position-relative form-group form-textarea">
-                                    <span class="form-icon"><i class="bi bi-globe2"></i></span>
-                                    <textarea class="box-shadow-double-large form-control" cols="40" rows="4" name="pickup-address" placeholder="Booking address"></textarea>
+                                <div class="position-relative form-group mb-20px">
+                                    <span class="form-icon"><i class="bi bi-telephone-outbound"></i></span>
+                                    <input class="input-name box-shadow-double-large form-control required" type="text" name="phone" placeholder="Your mobile" required>
+                                </div>
+                                <div class="position-relative form-group mb-20px">
+                                    <span class="form-icon"><i class="bi bi-people"></i></span>
+                                    <input class="box-shadow-double-large form-control required" type="number" name="no_of_people" min="1" max="1000" placeholder="No. of People" required>
                                 </div>
                             </div>
                             <div class="col-md-6 mb-30px">
                                 <div class="position-relative form-group mb-20px">
-                                    <span class="form-icon"><i class="bi bi-telephone-outbound"></i></span>
-                                    <input class="input-name box-shadow-double-large form-control required" type="text" name="phone" placeholder="Your mobile">
+                                    <span class="form-icon"><i class="bi bi-calendar"></i></span>
+                                    <input class="box-shadow-double-large form-control required" type="date" name="date" placeholder="Booking Date" required>
                                 </div>
                                 <div class="position-relative form-group mb-20px">
-                                    <span class="form-icon"><i class="bi bi-people"></i></span>
-                                    <input class="box-shadow-double-large form-control required" type="number" name="weight" min="1" max="1000" placeholder="No. of People">
-                                </div>                              
+                                    <span class="form-icon"><i class="bi bi-geo-alt"></i></span>
+                                    <input class="box-shadow-double-large form-control required" type="text" name="booking_address" placeholder="Booking Address" required>
+                                </div>
                                 <div class="position-relative form-group form-textarea">
-                                    <span class="form-icon"><i class="bi bi-globe"></i></span>
-                                    <textarea class="box-shadow-double-large form-control" cols="40" rows="4" name="delivery-address" placeholder="Destination address"></textarea>
+                                    <span class="form-icon"><i class="bi bi-geo-alt-fill"></i></span>
+                                    <textarea class="box-shadow-double-large form-control" cols="40" rows="4" name="destination_address" placeholder="Destination Address" required></textarea>
                                 </div>
                             </div>
+                            <input type="hidden" name="service" value="Bus Charter">
+                            <input type="hidden" name="subject" value="Bus Charter Booking Request">
                             <div class="col-auto text-center text-md-end sm-mt-20px lg-mb-15px">
                                 <input type="hidden" name="redirect" value="">
                                 <button class="btn btn-dark-gray btn-switch-text btn-medium left-icon btn-round-edge submit btn-box-shadow" type="submit">
@@ -107,10 +98,7 @@
                                         <span class="btn-double-text" data-text="Book Now">Book Now</span> 
                                     </span>
                                 </button>
-                            </div>
-                            <div class="col-xl-7 align-self-center last-paragraph-no-margin">
-                                <p class="fs-16 lh-24 w-80 xxl-w-100">*We are committed to protecting your <a href="#" class="text-dark-gray text-decoration-line-bottom fw-500">privacy.</a> We will never collect information about you.</p>
-                            </div>
+                            </div>                            
                             <div class="col-12">
                                 <div class="form-results mt-20px d-none"></div>
                             </div>

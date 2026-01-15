@@ -210,7 +210,6 @@ class contact extends ServerController
         
         $decodedResponse = json_decode($response, true);
 
-        var_dump($decodedResponse);
         
         if (json_last_error() !== JSON_ERROR_NONE) {
             return helper::Output_Error(null, 'Invalid response from server');

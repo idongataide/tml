@@ -49,13 +49,16 @@
     <section class="ps-8 pe-8 lg-ps-4 lg-pe-4 md-ps-0 md-pe-0 py-0 mb-5">
             <div class="container-fluid">
                 <div class="row g-0 bg-very-light-gray justify-content-center border-radius-10px overflow-hidden flex-lg-row flex-column-reverse">
-                    <div class="col-lg-8 p-6 lg-p-50px xs-ps-30px xs-pe-30px">
+                    <div class="col-lg-8 p-6 lg-p-50px xs-ps-30px xs-pe-30px contact-form">
                         <span class="fs-16 lh-22 fw-700 mb-15px d-inline-block text-uppercase text-dark-gray border-bottom border-2 border-color-base-color">TML Metroline Services</span>
                         <h2 class="fw-600 text-dark-gray ls-minus-1px mb-45px-">Charter a Bus</h2>
                         <p class="fs-16">At TSL Metroline, we recognize that sometimes, standard transportation services just aren't enough. That's why we offer our Bus Charter Services, providing tailored travel solutions to meet your specific needs.</p>
-                        
+                       
                         <!-- start contact form -->
                         <form action="<?php echo base_url(); ?>/contact" method="post" class="row contact-form-style-01">    
+                            <div class="col-12">
+                                <div class="form-results mt-20px d-none"></div>
+                            </div>
                             <div class="col-md-6 mb-30px sm-mb-20px">
                                 <div class="position-relative form-group mb-20px">
                                     <span class="form-icon"><i class="bi bi-person"></i></span>
@@ -99,9 +102,7 @@
                                     </span>
                                 </button>
                             </div>                            
-                            <div class="col-12">
-                                <div class="form-results mt-20px d-none"></div>
-                            </div>
+                            
                         </form>
                         <!-- end contact form -->
                     </div>

@@ -60,17 +60,13 @@
 
 
 <section id="about" class="big-section bg-black py-10" style="background-image: url(<?php echo base_url(); ?>/assets/images/vertical-line-bg-small-light-gray.svg)">
-    
-    <div class="container">
+  <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="row align-items-center mb-6" data-anime='{ "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                     <div class="col-10">
                         <span class="text-base-color fw-700 text-uppercase fs-14 ls-05px">STEP Programme</span>
-                    </div>
-                    <div class="col-2 text-end"> 
-                        <!-- <span class="text-base-color fs-14 fw-700">01</span> -->
-                    </div>
+                    </div>                    
                     <div class="col-12 mt-5px"> 
                         <div class="separator-line-2px w-100 d-block bg-base-color"></div>
                     </div>
@@ -153,7 +149,7 @@
         <div class="row">
             <div class="col-xxl-4 col-lg-7" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="position-sticky top-100px">
-                    <span class="fs-70 xl-fs-65 lg-fs-55 fw-700 mb-45px d-inline-block text-black ls-minus-3px xs-ls-minus-2px">Internships</span>
+                    <span class="fs-60 xl-fs-65 lg-fs-55 fw-700 mb-45px d-inline-block text-black ls-minus-3px xs-ls-minus-2px">Internships</span>
                 </div>
             </div>
             <div class="col-xxl-6 col-lg-5 offset-xxl-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>

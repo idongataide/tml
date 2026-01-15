@@ -157,6 +157,50 @@
                 });
             });
             </script>
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    const form = document.querySelector(".contact-form form");
+                    const resultBox = form.querySelector(".form-results");
+
+                    form.addEventListener("submit", function (e) {
+                        e.preventDefault();
+
+                        resultBox.classList.remove("d-none");
+                        resultBox.innerHTML = "Sending message...";
+
+                        const formData = new FormData(form);
+
+                        fetch(form.action, {
+                            method: "POST",
+                            body: formData
+                        })
+                        .then(res => res.json())
+                        .then(data => {
+                            if (data.status === "success") {
+                                resultBox.innerHTML = `
+                                    <div class="alert alert-success">
+                                        ${data.message}
+                                    </div>
+                                `;
+                                form.reset();
+                            } else {
+                                resultBox.innerHTML = `
+                                    <div class="alert alert-danger">
+                                        ${data.message}
+                                    </div>
+                                `;
+                            }
+                        })
+                        .catch(() => {
+                            resultBox.innerHTML = `
+                                <div class="alert alert-danger">
+                                    Something went wrong. Please try again.
+                                </div>
+                            `;
+                        });
+                    });
+                });
+                </script>
 
     </body>
 </html>

@@ -165,7 +165,9 @@ p {
   margin-bottom: 0;
 }
 
-
+.form-results {
+  font-size: 14px;
+}
 
 .fw-100 {
   font-weight: 100 !important;

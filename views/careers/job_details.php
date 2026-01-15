@@ -1,6 +1,5 @@
 <?php
-$job = $data['job'] ?? [];
-var_dump($job);
+    $job = $data['job'] ?? [];
 ?>
 
 <section class="page-title-big-typography breadcrumbs bg-dark-gray ipad-top-space-margin cover-background md-py-0" style="background-image: url(<?php echo base_url(); ?>/assets/img/careers/hero-4.webp)"> 

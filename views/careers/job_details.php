@@ -1,5 +1,6 @@
 <?php
 $job = $data['job'] ?? [];
+var_dump($job);
 ?>
 
 <section class="page-title-big-typography breadcrumbs bg-dark-gray ipad-top-space-margin cover-background md-py-0" style="background-image: url(<?php echo base_url(); ?>/assets/img/careers/hero-4.webp)"> 
@@ -119,7 +120,7 @@ $job = $data['job'] ?? [];
                                     <span class="ms-auto"><?= $job['application_count'] ?? '0' ?></span>
                                 </li>                               -->
                             </ul>
-                            <a href="<?=$job['link']?>" target="blank" class="btn btn-extra-large btn-base-color btn-rounded btn-switch-text fw-600 left-icon w-100">
+                            <a href="<?=$job['link'] ?? 'N/A'?>" target="blank" class="btn btn-extra-large btn-base-color btn-rounded btn-switch-text fw-600 left-icon w-100">
                                 <span>
                                     <span><i class="feather icon-feather-send"></i></span>
                                     <span class="btn-double-text" data-text="Apply Now">Apply Now</span>

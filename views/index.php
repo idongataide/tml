@@ -1,5 +1,5 @@
         <!-- end header -->
-        <!-- start banner slider -->
+        <!-- start banner slider   -->
         <section class="p-0 bg-dark-gray">
             <div class="swiper full-screen ipad-top-space-margin swiper-number-pagination-style-01  drag-cursor base-color" data-slider-options='{ "slidesPerView": 1, "loop": true, "pagination": { "el": ".swiper-number", "clickable": true }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "autoplay": { "delay": 15000, "disableOnInteraction": false },  "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "fade" }' data-number-pagination="1" data-anime-text='{ "translateY": [50,0], "opacity": [0,1], "easing": "easeOutQuad", "duration": 500, "delay": { "staggervalue": 20 } }'>
                 <div class="swiper-wrapper">
